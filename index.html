@@ -1,7 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>https://dreamedworker.gihube.io/mStudio</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<pre><code id="json"></code></pre>
 </body>
+<script type="text/javascript">
+let btn = document.querySelector('#json');
+let data = {"hasUpdate": true,"NoIgnorable": true,"versionCode": 51,"versionName": "4.0.1","updateLog": "\n1、更改保存图片的存储路径。\n2、更改软件更新的提示模式。\n3、调整非强制更新控制方式。\n4、新增存储权限的申请授权位置。","apkUrl": "https://www.yuming.com/assets/a某o130.apk","webUrl": "https://yirj.gitee.io/update111","apkSize": "29.5MB"};
+btn.textContent = JSON.stringify(data, null, 2);
+</script>
 </html>
