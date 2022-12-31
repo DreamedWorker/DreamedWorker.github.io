@@ -78,11 +78,11 @@
         <div class="stage-container remove">
             <div class="page_two hide">
                 <div id="text" style="display:none;">
-                    <p>2023年倒计时<br>还有<span id="time"></span><br><span id="text1"></span>
-                        <br>Wish you：harvestThings(Year.2022, Major.successful()); setSail(With.NewThings, Year.2023);
+                    <p>2022年倒计时<br>还有<span id="time"></span><br><span id="text1"></span>
+                        <br>寄语：harvestThings(Year.2022, Major.successful()); setSail(With.NewThings, Year.2023);
                         <br>Study::Study.class.java<br>while(true){keepGoing();}<br>
                         然而，时间的脚步永不停止，人们行走的步伐也永远停不下来。
-                        <br>这一年里，我们度过了许多快乐和挑战，共同学习，共同成长。
+                        <br>这一年里，我们度过了许多快乐和挑战、学习与成长。
                         <br>In the year of 2022, we graduated from senior high school, we experienced Gaokao and entered the university, maybe we are also infected with COVID-19.
                         <br>未来如星辰大海般璀璨，不必拘泥于过去的不足。
                         <br>在日后，我们将继续，无限进步！<br>System.out.println("跨年快乐");<br><br><br>
@@ -272,9 +272,9 @@
     var diff2Minutes = Math.floor((diff2 - (diff2Years * 365 + diff2Days) * days - diff2Hours * hours) / minutes)
     var diff2Seconds = Math.floor((diff2 - (diff2Years * 365 + diff2Days) * days - diff2Hours * hours - diff2Minutes *
         minutes) / seconds)
-     if(todayMonth==1){if(todayDate==1){document.getElementById("text1").innerHTML =  "现在是1月1日,祝你"+todayYear+"新年快乐！"}}
-     else{document.getElementById("text1").innerHTML =  "提前祝你"+newYear+"新（跨）年快乐"}
-     document.getElementById("time").innerHTML =  diffDays + "天" + diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒就到"+newYear + "年"
+     if(todayMonth==1){if(todayDate==1){document.getElementById("text1").innerHTML =  "现在是2023年1月1日,祝我们"+todayYear+"新年快乐！"}}
+     else{document.getElementById("text1").innerHTML =  "提前祝我们"+newYear+"新（跨）年快乐"}
+     document.getElementById("time").innerHTML =  diffDays + "天" + diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒就到"+newYear + "年了"
      if(todayMonth==12){document.getElementById("copyright").innerHTML ="前端项目源自开放源代码项目"}
      else{document.getElementById("copyright").innerHTML ="前端项目源自开放源代码项目"}
 }
